@@ -17,3 +17,4 @@ dependencies:
   - better_social_sharing_buttons
   - citation_select
   - views
+  - search_api
