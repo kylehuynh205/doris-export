@@ -1,0 +1,19 @@
+name: 'Doris Export'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: Custom
+dependencies:
+  - advanced_search
+  - context
+  - system
+  - block_content
+  - facets
+  - islandora_mirador
+  - node
+  - term_condition
+  - user
+  - help
+  - better_social_sharing_buttons
+  - citation_select
+  - views

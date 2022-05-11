@@ -1,0 +1,49 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:92b19474-1ac5-4b30-9211-a6b9004dcfa7'
+  module:
+    - block_content
+    - context
+    - system
+  theme:
+    - barriodepartments
+id: advancedsearchbutton
+theme: barriodepartments
+region: header_form
+weight: -17
+provider: null
+plugin: 'block_content:92b19474-1ac5-4b30-9211-a6b9004dcfa7'
+settings:
+  id: 'block_content:92b19474-1ac5-4b30-9211-a6b9004dcfa7'
+  label: 'Advanced Search Button'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  context:
+    id: context
+    negate: null
+    values: ''
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  request_path:
+    id: request_path
+    negate: true
+    pages: /search-results

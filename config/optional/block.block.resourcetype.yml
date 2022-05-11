@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.resource_type
+  module:
+    - facets
+  theme:
+    - bartik
+id: resourcetype
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'facet_block:resource_type'
+settings:
+  id: 'facet_block:resource_type'
+  label: 'Resource Type'
+  label_display: visible
+  provider: facets
+  block_id: resourcetype
+visibility: {  }

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.genre
+  module:
+    - facets
+  theme:
+    - bartik
+id: genre
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'facet_block:genre'
+settings:
+  id: 'facet_block:genre'
+  label: Genre
+  label_display: visible
+  provider: facets
+  block_id: genre
+visibility: {  }
