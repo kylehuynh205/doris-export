@@ -4,17 +4,18 @@ description: 'My Awesome Module'
 core: 8.x
 package: Custom
 dependencies:
-  - advanced_search
-  - context
-  - system
-  - block_content
-  - facets
-  - islandora_mirador
-  - node
-  - term_condition
-  - user
-  - help
-  - better_social_sharing_buttons
-  - citation_select
-  - views
-  - search_api
+  0: advanced_search
+  1: context
+  2: system
+  3: block_content
+  4: facets
+  5: islandora_mirador
+  6: node
+  7: term_condition
+  8: user
+  9: help
+  10: better_social_sharing_buttons
+  11: citation_select
+  12: views
+  13: search_api
+  15: views_field_view
